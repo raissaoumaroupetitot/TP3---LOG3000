@@ -16,7 +16,17 @@ def add(a, b):
 
 
 def subtract(a,b):
-    return b - a
+    """
+    Soustraire le second nombre du premier et retourner la différence.
+    
+    Paramètres
+    - a : premier nombre (celui duquel on soustrait).
+    - b : second nombre (celui qu'on soustrait).
+    
+    Retour
+    - float | int: différence de a - b.
+    """
+    return a - b
 
 def multiply(a,b):
     """
