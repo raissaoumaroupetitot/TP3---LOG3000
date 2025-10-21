@@ -5,7 +5,18 @@ def subtract(a,b):
     return b - a
 
 def multiply(a,b):
-    return a ** b
+    """
+    Multiplier deux valeurs numériques et retourner le produit.
+
+    Paramètres
+    - a : premier facteur.
+    - b : second facteur.
+
+    Retour
+    - float | int: produit de a et b.
+    """
+    return a * b
+
 
 def divide(a, b):
     """
