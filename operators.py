@@ -1,3 +1,8 @@
+"""Opérations arithmétiques de base : add, subtract, multiply, divide.
+    Chaque fonction prend deux nombres (int|float de preference) et renvoie le résultat numérique.
+    divide lève ZeroDivisionError si le deuxième argument est 0.
+"""
+
 def add(a, b):
     """
     Additionner deux valeurs numériques et retourner la somme.
