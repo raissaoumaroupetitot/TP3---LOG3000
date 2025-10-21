@@ -30,9 +30,8 @@ source venv/bin/activate  # Sur Windows : venv\Scripts\activate
 ```
 
 ### 3. Installer les dépendances
-Installez Flask manuellement :
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 ### 4. Lancer le serveur Flask
