@@ -23,7 +23,7 @@ def test_divide():
     assert divide(8, 2) == 4
     assert divide(0, 2) == 0
     assert divide(2, 1) == 2
-    assert divide(7, 2) == pytest.approx(3.25)
+    assert divide(7, 2) == pytest.approx(3.5)
     assert divide(9,   -2) == pytest.approx(-4.5)
 
 def test_divide_by_zero_raises():
